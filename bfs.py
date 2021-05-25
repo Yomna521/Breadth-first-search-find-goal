@@ -58,6 +58,7 @@ if __name__ == "__main__":
    n = int(line1[1])
    s = int(line1[2])
    map = []
+   
 
    for i in range(m*n):
        line=input()
@@ -79,16 +80,19 @@ if __name__ == "__main__":
    path3 = bfs(graph, s, corner3)
    path4 = bfs(graph, s, corner4)
 
-   print("-----------------------------------------------------------------------------------")
-   for i in range(len(path1)):
-       print(path1[i],end=' ')
-   print('')
-   for i in range(len(path2)):
+   if path1 !=None:
+    for i in range(len(path1)):
+        print(path1[i],end=' ')
+    print('')
+   if path2 != None:
+    for i in range(len(path2)):
        print(path2[i],end=' ')
-   print('')
-   for i in range(len(path3)):
-       print(path3[i],end=' ')
-   print('')
-   for i in range(len(path4)):
-       print(path4[i],end=' ')
-   print('')
+    print('')
+   if path3 != None:
+    for i in range(len(path3)):
+        print(path3[i],end=' ')
+    print('')
+   if path4 != None:
+    for i in range(len(path4)):
+        print(path4[i],end=' ')
+    print('')
