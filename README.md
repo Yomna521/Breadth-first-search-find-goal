@@ -6,15 +6,15 @@ One is allowed to move in eight directions as is shown in Fig. 1, if a connectio
 #### Fig.1 
 ![1](https://user-images.githubusercontent.com/59218287/119479932-6f2aab00-bd51-11eb-8faa-52302539adcc.jpg)
 
-For example, let there be a 5×85×8 grid and we have to start from pixel number 2020. All the pixels are numbered in row-wise manner starting from '1', 
+For example, let there be a 5×8 grid and we have to start from pixel number 20.<br> All the pixels are numbered in row-wise manner starting from '1', 
 as is shown in Fig. 2. The required sequences of pixels to be followed so as to reach each of the four corners are marked in Fig. 2.
 
 #### Fig.2
 ![2](https://user-images.githubusercontent.com/59218287/119479937-705bd800-bd51-11eb-89bf-896614191847.jpg)
 
 ## Input:
-•	Line 1 contains three space integers MM, NN and SS, i.e. the size of the grid is M×NM×N and starting pixel is SS.<br>
-•	Following M×NM×N lines contains space separated 9 numbers. The first is an integer, say ii, representing a pixel number followed by a sequence of eight bits (0/1) showing the directions one can move from pixel ii. The order in which directions are considered in the given sequence of bits is same as shown in Fig. 1.<br>
+•	Line 1 contains three space integers M, N, and S, i.e. the size of the grid is M×N and starting pixel is S.<br>
+•	Following M×N lines contains space separated 9 numbers. The first is an integer, say i, representing a pixel number followed by a sequence of eight bits (0/1) showing the directions one can move from pixel i. The order in which directions are considered in the given sequence of bits is same as shown in Fig. 1.<br>
 ## Output:
 •	There will be four lines in the output. Each line contains space separated pixel numbers that are to be followed to reach a corner from the given starting pixel.<br>
 •	First line contains path to corner 1 as shown in Fig. 2.<br>
